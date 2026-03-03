@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Output
+graphs/*.png
+
+# Data files (용량이 크면 제외)
+*.csv
+*.gz
+*.xlsx
+*.xls
+
+# Jupyter
+.ipynb_checkpoints/
